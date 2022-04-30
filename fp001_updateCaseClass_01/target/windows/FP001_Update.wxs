@@ -1,0 +1,84 @@
+<Wix xmlns:util="http://schemas.microsoft.com/wix/UtilExtension" xmlns="http://schemas.microsoft.com/wix/2006/wi">
+      <Product Id="*" Name="Prueba" Language="1033" Version="0.0.1" Manufacturer="JEMB" UpgradeCode="5f48f1e1-1257-43ad-baee-688136ad9502">
+        <Package Description="PRUEBA MSI." Comments="TODO - we need comments." Manufacturer="JEMB" InstallScope="perMachine" InstallerVersion="200" Compressed="yes"/>
+        <Media Id="1" Cabinet="_fp001_update553249505.cab" EmbedCab="yes"/>
+        
+      <!-- Define the directories we use -->
+      <Directory Id="TARGETDIR" Name="SourceDir">
+        <Directory Id="ProgramMenuFolder">
+          <Directory Id="ApplicationProgramsFolder" Name="FP001_Update">
+            <Component Id="_ApplicationProgramsFolderRemove689092593" Guid="a0817990-6edd-4ada-b765-bb3a7dfaf213">
+              <RemoveFolder Id="ApplicationProgramsFolderRemove" On="uninstall"/>
+              <RegistryValue Root="HKCU" Key="Software\JEMB\FP001_Update" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+            </Component>
+          </Directory>
+        </Directory>
+        <Directory Id="ProgramFilesFolder" Name="PFiles">
+          <Directory Id="INSTALLDIR" Name="FP001_Update">
+            <Directory Id="_lib107141xxx" Name="lib">
+        
+      </Directory><!-- --><Directory Id="_bin97543xxxx" Name="bin">
+        
+      </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+      <!-- Now define the components -->
+      <DirectoryRef Id="_lib107141xxx">
+            <Component Id="_lib_com_jemb_fp001_update_0_0_1_jar142043875" Guid="8090bb94-6f6b-45af-8277-1c08e91a10f8">
+              <File Id="fl__lib_com_jemb_fp001_update_0_0_1_jar142043875" Name="com.jemb.fp001_update-0.0.1.jar" DiskId="1" Source="lib\com.jemb.fp001_update-0.0.1.jar">
+                
+              </File>
+            </Component>
+          </DirectoryRef><DirectoryRef Id="_lib107141xxx">
+            <Component Id="_lib_org_scala_lang_scala_library_2_13_8_jar585171661" Guid="e51442d3-6030-4d9a-b12c-e703892d7c78">
+              <File Id="fl__lib_org_scala_lang_scala_library_2_13_8_jar585171661" Name="org.scala-lang.scala-library-2.13.8.jar" DiskId="1" Source="lib\org.scala-lang.scala-library-2.13.8.jar">
+                
+              </File>
+            </Component>
+          </DirectoryRef><DirectoryRef Id="_bin97543xxxx">
+            <Component Id="_bin_fp001_update757744361" Guid="7a6e2a6d-ecd9-457e-a8a7-93e9eeadd03e">
+              <File Id="fl__bin_fp001_update757744361" Name="fp001_update" DiskId="1" Source="bin\fp001_update">
+                
+              </File>
+            </Component>
+          </DirectoryRef><DirectoryRef Id="_bin97543xxxx">
+            <Component Id="_bin_fp001_update_bat925043600" Guid="e8989718-ae87-426b-9b96-da4833716cfb">
+              <File Id="fl__bin_fp001_update_bat925043600" Name="fp001_update.bat" DiskId="1" Source="bin\fp001_update.bat">
+                
+              </File>
+            </Component>
+          </DirectoryRef><DirectoryRef Id="_bin97543xxxx">
+            <Component Id="_bin97543xxxxPathC" Guid="a924408f-7b7d-4390-a51e-19f060a42716">
+              <CreateFolder/>
+              <Environment Id="FP001_UPDATE_HOME" Name="FP001_UPDATE_HOME" Value="[INSTALLDIR]" Permanent="no" Action="set" System="yes"/>
+              <Environment Id="PATH" Name="PATH" Value="[INSTALLDIR]bin" Permanent="no" Part="last" Action="set" System="yes"/>
+            </Component>
+          </DirectoryRef><DirectoryRef Id="ApplicationProgramsFolder">
+            <Component Id="_shortcut_1d91f7ca_d9b3_46a5_88a7_8530a9a726e8298772084" Guid="f7dae454-6dc0-4d00-a80d-e5df5ce1fb68">
+              
+              <RegistryValue Root="HKCU" Key="Software\JEMB\FP001_Update" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+            </Component>
+          </DirectoryRef>
+      <!-- Now define the features! -->
+      <Feature Id="Complete" Title="Prueba" Description="PRUEBA MSI." Display="expand" Level="1" ConfigurableDirectory="INSTALLDIR">
+        <!-- Manually added uninstall feautre -->
+        <Feature Id="Uninstall" Title="Uninstall" Description="Uninstall ApplicationFolder" Level="1" Absent="allow">
+          <ComponentRef Id="_ApplicationProgramsFolderRemove689092593"/>
+        </Feature>
+        <Feature Id="_fp001_update_core171154694" Title="fp001_update" Description="All core files." Level="1" Absent="disallow">
+                    <ComponentRef Id="_lib_com_jemb_fp001_update_0_0_1_jar142043875"/><ComponentRef Id="_lib_org_scala_lang_scala_library_2_13_8_jar585171661"/><ComponentRef Id="_bin_fp001_update757744361"/><ComponentRef Id="_bin_fp001_update_bat925043600"/>
+                  </Feature><Feature Id="AddBinToPath" Title="Update Environment Variables" Description="Update PATH environment variables (requires restart)." Level="1" Absent="allow">
+                    <ComponentRef Id="_bin97543xxxxPathC"/>
+                  </Feature><Feature Id="AddConfigLinks" Title="Configuration start menu links" Description="Adds start menu shortcuts to edit configuration files." Level="1" Absent="allow">
+                    <ComponentRef Id="_shortcut_1d91f7ca_d9b3_46a5_88a7_8530a9a726e8298772084"/>
+                  </Feature>
+      </Feature>
+      <MajorUpgrade AllowDowngrades="no" Schedule="afterInstallInitialize" DowngradeErrorMessage="A later version of [ProductName] is already installed. Setup will now exit."/>
+      <UIRef Id="WixUI_FeatureTree"/>
+      <UIRef Id="WixUI_ErrorProgressText"/>
+      <Property Id="WIXUI_INSTALLDIR" Value="INSTALLDIR"/>
+      
+    
+      </Product>
+    </Wix>

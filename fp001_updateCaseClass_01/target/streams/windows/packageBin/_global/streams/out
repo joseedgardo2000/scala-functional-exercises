@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0mC:\Program Files (x86)\WiX Toolset v3.11\bin\candle.exe D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp001_updateCaseClass\target\windows\FP001_Update.wxs -ext WixUtilExtension[0m
+[0m[[0m[0minfo[0m] [0m[0mWindows Installer XML Toolset Compiler version 3.11.2.4516[0m
+[0m[[0m[0minfo[0m] [0m[0mCopyright (c) .NET Foundation and contributors. All rights reserved.[0m
+[0m[[0m[0minfo[0m] [0m[0mFP001_Update.wxs[0m
+[0m[[0m[0mdebug[0m] [0m[0mC:\Program Files (x86)\WiX Toolset v3.11\bin\light.exe -out D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp001_updateCaseClass\target\windows\FP001_Update.msi D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp001_updateCaseClass\target\windows\FP001_Update.wixobj -ext WixUIExtension -ext WixUtilExtension -cultures:en-us[0m
+[0m[[0m[0minfo[0m] [0m[0mWindows Installer XML Toolset Linker version 3.11.2.4516[0m
+[0m[[0m[0minfo[0m] [0m[0mCopyright (c) .NET Foundation and contributors. All rights reserved.[0m

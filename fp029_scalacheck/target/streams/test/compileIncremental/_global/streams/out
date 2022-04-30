@@ -1,0 +1,32 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 2 products, 2 sources, 2 libraries
+[debug] current source = Set(${BASE}/src/test/scala/com/jemb/scalacheck/utils/MateUtilsTest.scala, ${BASE}/src/test/scala/com/jemb/scalacheck/utils/SumasTest.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(${BASE}/target/scala-2.13/test-classes/com/jemb/scalacheck/utils/MateUtilsTest.class, ${BASE}/target/scala-2.13/test-classes/com/jemb/scalacheck/utils/SumasTest.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set()
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/test-classes/com/jemb/scalacheck/utils/MateUtilsTest.class, ${BASE}/target/scala-2.13/test-classes/com/jemb/scalacheck/utils/SumasTest.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set()
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/test/scala/com/jemb/scalacheck/utils/MateUtilsTest.scala, ${BASE}/src/test/scala/com/jemb/scalacheck/utils/SumasTest.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] all 2 sources are invalidated
+[debug] Initial set of included nodes: 
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 2 Scala sources to D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\target\scala-2.13\test-classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.6.0:compile for Scala 2.13.8
+[debug] [zinc] Running cached compiler 62a02682 for Scala compiler version 2.13.8
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar
+[debug] 	-classpath
+[debug] 	D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\target\scala-2.13\test-classes;D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\target\scala-2.13\classes;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scoverage\scalac-scoverage-runtime_2.13\1.4.11\scalac-scoverage-runtime_2.13-1.4.11.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalacheck\scalacheck_2.13\1.14.1\scalacheck_2.13-1.14.1.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest_2.13\3.2.11\scalatest_2.13-3.2.11.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\test-interface\1.0\test-interface-1.0.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-core_2.13\3.2.11\scalatest-core_2.13-3.2.11.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-featurespec_2.13\3.2.11\scalatest-featurespec_2.13-3.2.11.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-flatspec_2.13\3.2.11\scalatest-flatspec_2.13-3.2.11.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-freespec_2.13\3.2.11\scalatest-freespec_2.13-3.2.11.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funsuite_2.13\3.2.11\scalatest-funsuite_2.13-3.2.11.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funspec_2.13\3.2.11\scalatest-funspec_2.13-3.2.11.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-propspec_2.13\3.2.11\scalatest-propspec_2.13-3.2.11.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-refspec_2.13\3.2.11\scalatest-refspec_2.13-3.2.11.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-wordspec_2.13\3.2.11\scalatest-wordspec_2.13-3.2.11.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-diagrams_2.13\3.2.11\scalatest-diagrams_2.13-3.2.11.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-matchers-core_2.13\3.2.11\scalatest-matchers-core_2.13-3.2.11.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-shouldmatchers_2.13\3.2.11\scalatest-shouldmatchers_2.13-3.2.11.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-mustmatchers_2.13\3.2.11\scalatest-mustmatchers_2.13-3.2.11.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.8\scala-reflect-2.13.8.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-compatible\3.2.11\scalatest-compatible-3.2.11.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_2.13\3.2.11\scalactic_2.13-3.2.11.jar;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\2.0.1\scala-xml_2.13-2.0.1.jar
+[debug] Scala compilation took 0.7430826 s
+[info] done compiling

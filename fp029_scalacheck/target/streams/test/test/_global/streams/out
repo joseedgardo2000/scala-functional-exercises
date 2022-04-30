@@ -1,0 +1,10 @@
+[debug] Running TaskDef(com.jemb.scalacheck.utils.SumasTest, org.scalacheck.ScalaCheckFramework$$anon$5@54988d3c, false, [SuiteSelector])
+[debug] Running TaskDef(com.jemb.scalacheck.utils.MateUtilsTest, org.scalacheck.ScalaCheckFramework$$anon$5@54988d3c, false, [SuiteSelector])
+[debug] Running TaskDef(com.jemb.scalacheck.utils.SumasTest-0, org.scalacheck.ScalaCheckFramework$$anon$5@54988d3c, false, [SuiteSelector])
+[debug] Running TaskDef(com.jemb.scalacheck.utils.MateUtilsTest-0, org.scalacheck.ScalaCheckFramework$$anon$5@54988d3c, false, [SuiteSelector])
+[info] + hola.increaseRandomly: OK, passed 100 tests.
+[info] + Sumas.Sumar: OK, passed 100 tests.
+[info] Passed: Total 2, Failed 0, Errors 0, Passed 2
+[debug] Passed tests:
+[debug] 	com.jemb.scalacheck.utils.MateUtilsTest
+[debug] 	com.jemb.scalacheck.utils.SumasTest

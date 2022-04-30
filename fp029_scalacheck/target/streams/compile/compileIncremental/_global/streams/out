@@ -1,0 +1,36 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 5 products, 3 sources, 2 libraries
+[debug] current source = Set(${BASE}/src/main/scala/com/jemb/scalacheck/Principal.scala, ${BASE}/src/main/scala/com/jemb/scalacheck/utils/MateUtils.scala, ${BASE}/src/main/scala/com/jemb/scalacheck/utils/Sumas.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/com/jemb/scalacheck/utils/Sumas.class, ${BASE}/target/scala-2.13/classes/com/jemb/scalacheck/utils/Sumas$.class, ${BASE}/target/scala-2.13/classes/com/jemb/scalacheck/utils/MateUtils.class, ${BASE}/target/scala-2.13/classes/com/jemb/scalacheck/Principal.class, ${BASE}/target/scala-2.13/classes/com/jemb/scalacheck/Principal$.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set()
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/com/jemb/scalacheck/utils/Sumas.class, ${BASE}/target/scala-2.13/classes/com/jemb/scalacheck/utils/Sumas$.class, ${BASE}/target/scala-2.13/classes/com/jemb/scalacheck/utils/MateUtils.class, ${BASE}/target/scala-2.13/classes/com/jemb/scalacheck/Principal.class, ${BASE}/target/scala-2.13/classes/com/jemb/scalacheck/Principal$.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set()
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/com/jemb/scalacheck/utils/Sumas.scala, ${BASE}/src/main/scala/com/jemb/scalacheck/utils/MateUtils.scala, ${BASE}/src/main/scala/com/jemb/scalacheck/Principal.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] all 3 sources are invalidated
+[debug] Initial set of included nodes: 
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 3 Scala sources to D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.6.0:compile for Scala 2.13.8
+[debug] [zinc] Running cached compiler e81d177 for Scala compiler version 2.13.8
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-Xplugin:C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scoverage\scalac-scoverage-plugin_2.13.8\1.4.11\scalac-scoverage-plugin_2.13.8-1.4.11.jar
+[debug] 	-P:scoverage:dataDir:D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\target\scala-2.13/scoverage-data
+[debug] 	-P:scoverage:reportTestName
+[debug] 	-Yrangepos
+[debug] 	-bootclasspath
+[debug] 	C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar
+[debug] 	-classpath
+[debug] 	D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\target\scala-2.13\classes;C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scoverage\scalac-scoverage-runtime_2.13\1.4.11\scalac-scoverage-runtime_2.13-1.4.11.jar
+[debug] Scala compilation took 0.7581647 s
+[info] done compiling

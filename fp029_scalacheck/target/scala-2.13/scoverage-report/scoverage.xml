@@ -1,0 +1,49 @@
+<scoverage 
+statement-count="5" statements-invoked="5" statement-rate="100.00" branch-rate="100.00" version="1.0" timestamp="1650922829789">
+    <packages>
+        <package name="com.jemb.scalacheck.utils" statement-count="5" statements-invoked="5" statement-rate="100.00">
+            <classes>
+                <class 
+                name="com.jemb.scalacheck.utils.MateUtils" filename="com\jemb\scalacheck\utils\MateUtils.scala" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.jemb.scalacheck.utils/MateUtils/increaseRandomly" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.jemb.scalacheck.utils" class="MateUtils" class-type="Class" full-class-name="com.jemb.scalacheck.utils.MateUtils" source="D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\src\main\scala\com\jemb\scalacheck\utils\MateUtils.scala" method="increaseRandomly" start="309" end="325" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.jemb.scalacheck.utils" class="MateUtils" class-type="Class" full-class-name="com.jemb.scalacheck.utils.MateUtils" source="D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\src\main\scala\com\jemb\scalacheck\utils\MateUtils.scala" method="increaseRandomly" start="219" end="241" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.jemb.scalacheck.utils" class="MateUtils" class-type="Class" full-class-name="com.jemb.scalacheck.utils.MateUtils" source="D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\src\main\scala\com\jemb\scalacheck\utils\MateUtils.scala" method="increaseRandomly" start="305" end="325" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.jemb.scalacheck.utils/MateUtils/getRandomIntFrom1To100" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.jemb.scalacheck.utils" class="MateUtils" class-type="Class" full-class-name="com.jemb.scalacheck.utils.MateUtils" source="D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\src\main\scala\com\jemb\scalacheck\utils\MateUtils.scala" method="getRandomIntFrom1To100" start="378" end="412" line="14" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="com.jemb.scalacheck.utils.Sumas" filename="com\jemb\scalacheck\utils\Sumas.scala" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.jemb.scalacheck.utils/Sumas/suma" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.jemb.scalacheck.utils" class="Sumas" class-type="Object" full-class-name="com.jemb.scalacheck.utils.Sumas" source="D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\src\main\scala\com\jemb\scalacheck\utils\Sumas.scala" method="suma" start="84" end="89" line="4" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

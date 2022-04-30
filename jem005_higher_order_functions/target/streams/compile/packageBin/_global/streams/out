@@ -1,0 +1,13 @@
+[debug] Packaging D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\jem005_higher_order_functions\target\scala-2.13\jem005_higher_order_functions_2.13-0.0.1.jar ...
+[debug] Input file mappings:
+[debug] 	com
+[debug] 	  D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\jem005_higher_order_functions\target\scala-2.13\classes\com
+[debug] 	com\jemb
+[debug] 	  D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\jem005_higher_order_functions\target\scala-2.13\classes\com\jemb
+[debug] 	com\jemb\hof
+[debug] 	  D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\jem005_higher_order_functions\target\scala-2.13\classes\com\jemb\hof
+[debug] 	com\jemb\hof\Principal$.class
+[debug] 	  D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\jem005_higher_order_functions\target\scala-2.13\classes\com\jemb\hof\Principal$.class
+[debug] 	com\jemb\hof\Principal.class
+[debug] 	  D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\jem005_higher_order_functions\target\scala-2.13\classes\com\jemb\hof\Principal.class
+[debug] Done packaging.

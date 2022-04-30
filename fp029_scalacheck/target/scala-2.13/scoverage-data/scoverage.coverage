@@ -1,0 +1,207 @@
+# Coverage data, format version: 2.0
+# Statement data:
+# - id
+# - source path
+# - package name
+# - class name
+# - class type (Class, Object or Trait)
+# - full class name
+# - method name
+# - start offset
+# - end offset
+# - line number
+# - symbol name
+# - tree name
+# - is branch
+# - invocations count
+# - is ignored
+# - description (can be multi-line)
+# '' sign
+# ------------------------------------------
+1
+D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\src\main\scala\com\jemb\scalacheck\Principal.scala
+com.jemb.scalacheck
+Principal
+Object
+com.jemb.scalacheck.Principal
+main
+170
+225
+7
+scala.Predef.println
+Apply
+false
+0
+true
+scala.Predef.println("============= fp029_scalacheck =============")
+
+2
+D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\src\main\scala\com\jemb\scalacheck\Principal.scala
+com.jemb.scalacheck
+Principal
+Object
+com.jemb.scalacheck.Principal
+main
+241
+254
+8
+com.jemb.scalacheck.utils.MateUtils.<init>
+Apply
+false
+0
+true
+new com.jemb.scalacheck.utils.MateUtils()
+
+3
+D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\src\main\scala\com\jemb\scalacheck\Principal.scala
+com.jemb.scalacheck
+Principal
+Object
+com.jemb.scalacheck.Principal
+main
+268
+292
+9
+com.jemb.scalacheck.utils.MateUtils.increaseRandomly
+Apply
+false
+0
+true
+obj.increaseRandomly(10)
+
+4
+D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\src\main\scala\com\jemb\scalacheck\Principal.scala
+com.jemb.scalacheck
+Principal
+Object
+com.jemb.scalacheck.Principal
+main
+298
+331
+10
+scala.Predef.println
+Apply
+false
+0
+true
+scala.Predef.println(("Incremento Random: ".+(a): String))
+
+5
+D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\src\main\scala\com\jemb\scalacheck\Principal.scala
+com.jemb.scalacheck
+Principal
+Object
+com.jemb.scalacheck.Principal
+main
+337
+374
+11
+scala.Predef.println
+Apply
+false
+0
+true
+scala.Predef.println(("Sumas: ".+(com.jemb.scalacheck.utils.Sumas.suma(4, 5)): String))
+
+6
+D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\src\main\scala\com\jemb\scalacheck\Principal.scala
+com.jemb.scalacheck
+Principal
+Object
+com.jemb.scalacheck.Principal
+main
+380
+435
+12
+scala.Predef.println
+Apply
+false
+0
+true
+scala.Predef.println("============= ================ =============")
+
+7
+D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\src\main\scala\com\jemb\scalacheck\utils\MateUtils.scala
+com.jemb.scalacheck.utils
+MateUtils
+Class
+com.jemb.scalacheck.utils.MateUtils
+increaseRandomly
+219
+241
+9
+com.jemb.scalacheck.utils.MateUtils.getRandomIntFrom1To100
+Select
+false
+0
+false
+MateUtils.this.getRandomIntFrom1To100
+
+8
+D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\src\main\scala\com\jemb\scalacheck\utils\MateUtils.scala
+com.jemb.scalacheck.utils
+MateUtils
+Class
+com.jemb.scalacheck.utils.MateUtils
+increaseRandomly
+309
+325
+11
+scala.Int.toLong
+Select
+false
+0
+false
+randomNum.toLong
+
+9
+D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\src\main\scala\com\jemb\scalacheck\utils\MateUtils.scala
+com.jemb.scalacheck.utils
+MateUtils
+Class
+com.jemb.scalacheck.utils.MateUtils
+increaseRandomly
+305
+325
+11
+scala.Int.+
+Apply
+false
+0
+false
+i.+(randomNum.toLong)
+
+10
+D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\src\main\scala\com\jemb\scalacheck\utils\MateUtils.scala
+com.jemb.scalacheck.utils
+MateUtils
+Class
+com.jemb.scalacheck.utils.MateUtils
+getRandomIntFrom1To100
+378
+412
+14
+scala.Int.+
+Apply
+false
+0
+false
+scala.util.Random.nextInt(100).+(1)
+
+11
+D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp029_scalacheck\src\main\scala\com\jemb\scalacheck\utils\Sumas.scala
+com.jemb.scalacheck.utils
+Sumas
+Object
+com.jemb.scalacheck.utils.Sumas
+suma
+84
+89
+4
+scala.Int.+
+Apply
+false
+0
+false
+i.+(j)
+

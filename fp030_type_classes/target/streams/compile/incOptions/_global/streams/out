@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp030_type_classes\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BehavesLikeHumanSyntax.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BehavesLikeHumanSyntax$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BehavesLikeHumanInstances$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Animal.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Cat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BehavesLikeHumanSyntax$BehavesLikeHumanOps.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BehavesLikeHumanI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BehavesLikeHumanInstances$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Probador01$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BehavesLikeHumanI$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Principal.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BehavesLikeHuman.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Principal$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BehavesLikeHumanInstances$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Probador01.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dog.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BehavesLikeHumanInstances.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Bird.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Bird$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Cat$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dog$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp030_type_classes\target\scala-2.13\classes.bak[0m

@@ -1,0 +1,67 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 7 products, 6 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/com/jem/jem001_traits/ClaseD.scala, ${BASE}/src/main/scala/com/jem/jem001_traits/Principal.scala, ${BASE}/src/main/scala/com/jem/jem001_traits/TraitA.scala, ${BASE}/src/main/scala/com/jem/jem001_traits/TraitB02.scala, ${BASE}/src/main/scala/com/jem/jem001_traits/TraitB01.scala, ${BASE}/src/main/scala/com/jem/jem001_traits/TraitC.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/com/jem/jem001_traits/ClaseD.scala), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/com/jem/jem001_traits/ClaseD.scala)
+[debug] Invalidated products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(com.jem.jem001_traits.ClaseD)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(com.jem.jem001_traits.ClaseD)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/com/jem/jem001_traits/ClaseD.scala)
+[debug] Initial set of included nodes: com.jem.jem001_traits.ClaseD
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\jem001_traits\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.5.7:compile for Scala 2.13.8
+[debug] [zinc] Running cached compiler 13da8125 for Scala compiler version 2.13.8
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar
+[debug] 	-classpath
+[debug] 	D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\jem001_traits\target\scala-2.13\classes
+[debug] Invalidating (transitively) by inheritance from com.jem.jem001_traits.ClaseD...
+[debug] Initial set of included nodes: com.jem.jem001_traits.ClaseD
+[debug] Invalidated by transitive inheritance dependency: Set(com.jem.jem001_traits.ClaseD)
+[debug] The following modified names cause invalidation of com.jem.jem001_traits.Principal: Set(UsedName(ClaseD,[Default]))
+[debug] Change NamesChange(com.jem.jem001_traits.ClaseD,ModifiedNames(changes = UsedName(ClaseD,[Default]))) invalidates 2 classes due to The com.jem.jem001_traits.ClaseD has the following regular definitions changed:
+[debug] 	UsedName(ClaseD,[Default]).
+[debug]   > by transitive inheritance: Set(com.jem.jem001_traits.ClaseD)
+[debug]   > 
+[debug]   > by member reference: Set(com.jem.jem001_traits.Principal)
+[debug]         
+[debug] New invalidations:
+[debug] 	com.jem.jem001_traits.Principal
+[debug] Initial set of included nodes: com.jem.jem001_traits.Principal
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set(com.jem.jem001_traits.Principal)
+[debug] Invalidated classes: com.jem.jem001_traits.Principal
+[debug] Scala compilation took 0.2803394 s
+[info] done compiling
+[debug] Initial set of included nodes: com.jem.jem001_traits.Principal
+[debug] compilation cycle 2
+[info] compiling 1 Scala source to D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\jem001_traits\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.5.7:compile for Scala 2.13.8
+[debug] [zinc] Running cached compiler 3e823c9a for Scala compiler version 2.13.8
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\josee\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar
+[debug] 	-classpath
+[debug] 	D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\jem001_traits\target\scala-2.13\classes
+[debug] New invalidations:
+[debug] Initial set of included nodes: 
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set()
+[debug] No classes were invalidated.
+[debug] Scala compilation took 0.3679268 s
+[info] done compiling

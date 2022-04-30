@@ -1,0 +1,9 @@
+[debug] Acquiring lock on file D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp002_fun-literal\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock ...
+[error] D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp002_fun-literal\src\main\scala\com\jemb\fp002_fun_literal\Principal.scala:7:35: not found: type ==
+[error]     val esPar00 = i: Int => i % 2 == 0
+[error]                                   ^
+[error] D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp002_fun-literal\src\main\scala\com\jemb\fp002_fun_literal\Principal.scala:7:19: not found: value i
+[error]     val esPar00 = i: Int => i % 2 == 0
+[error]                   ^
+[error] two errors found
+[debug] Releasing lock on file D:\PROYECTOS\Ejercicios\scala\ProgramacionFuncional\ejems02\fp002_fun-literal\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock.

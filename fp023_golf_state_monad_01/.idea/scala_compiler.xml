@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="fp023_golf_state_monad,fp023_golf_state_monad_8156" />
+  </component>
+</project>
